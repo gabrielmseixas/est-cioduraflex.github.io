@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre Nós - Minha Empresa</title>
+<link rel="stylesheet" href="styles.css"> <!-- Link para um arquivo CSS externo -->
+<style>
+  body {
+    font-family: 'Arial', sans-serif; /* Fonte principal */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cor de fundo */
+    color: #333; /* Cor do texto padrão */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+  }
+  header {
+    background-color: #cc3333; /* Cor de fundo */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+  }
+  header img {
+    max-width: 250px;
+    height: auto;
+  }
+  nav {
+    background-color: #eb6565; /* Cor do menu */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #about {
+    background-color: #fff;
+    padding: 50px 0;
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 20px rgba(252, 4, 4, 0.1); /* Sombra */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+  }
+  #about .container {
+    text-align: justify;
+  }
+  .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .section img {
+    max-width: 30%; /* Reduzindo o tamanho da imagem */
+    margin-right: 20px;
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  .section .content {
+    width: 60%; /* Ajustando a largura do conteúdo */
+  }
+  .section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif; /* Fonte chamativa para o título */
+    color: #333;
+  }
+  .section p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif; /* Fonte para o texto */
+    color: #666;
+  }
+  footer {
+    background-color: #292929; /* Cor de fundo */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    border-top: 2px solid #eb6565; /* Adicionando uma borda superior */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+  }
+  footer p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  /* Media queries para dispositivos móveis */
+  @media only screen and (max-width: 768px) {
+    .section {
+      flex-direction: column;
+    }
+    .section img {
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    .section .content {
+      width: 100%;
+    }
+    .section h2 {
+      font-size: 24px;
+    }
+    .section p {
+      font-size: 16px;
+    }
+  }
+
+  /* Media queries para tablets */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .section img {
+      max-width: 40%;
+    }
+    .section .content {
+      width: 55%;
+    }
+    .section h2 {
+      font-size: 26px;
+    }
+    .section p {
+      font-size: 17px;
+    }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <img src="https://duraflex.com.br/wp-content/uploads/2023/05/logo-duraflex-branca-horizontal-1-1024x193.png" alt="Estácio">
+  </header>
+  <nav>
+    <ul>
+      <li><a href="site.duraflex.html">Home</a></li>
+      <li><a href="serviços.html">Serviços</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="container">
+    <div class="section">
+      <img src="imgduraflex2.png" alt="Imagem 1">
+      <div class="content">
+        <h2>Sobre Nós</h2>
+        <p>Estamos entre os maiores fornecedores brasileiros de Pisos Industriais e Revestimentos. Há 36 anos transformamos necessidades de mercado em produtos e soluções de alta tecnologia utilizando  Epóxi, Uretano, e Poliuretano, e Acrílicos. Além de oferecer os melhores produtos e soluções disponíveis, nossas equipes, executam obras utilizando equipamentos que não produzem pó nem poluição ambiental, com rapidez e organização.
+          Em todas as obras que realizamos, adotamos uma política de proteção ao meio-ambiente, com produtos sustentáveis e sem produzir resíduos. Cada obra, para nós, é única, e nosso foco é  a satisfação total do cliente. Há 36 anos produzindo qualidade!.</p>
+      </div>
+    </div>
+    <div class="section">
+      <img src="quadra.jpg" alt="Imagem 2">
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Duraflex. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>

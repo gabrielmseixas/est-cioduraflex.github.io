@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restauração e Revestimento de Pisos</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8e8e8; /* Cor de fundo */
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative; /* Adicionado */
+  }
+  header {
+    background-color: #cc3333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  header img {
+    max-width: 250px;
+    height: auto;
+  }
+  nav {
+    background-color: #eb6565; /* Cor do menu */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  .banner {
+    background-image: url(imgtestefundo.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Ajustado */
+    text-align: center;
+    color: #fff;
+    position: relative; /* Adicionado */
+    padding-left: 20px; /* Ajustado */
+  }
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .banner-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Background mais transparente */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .banner-text p:first-child {
+    margin-bottom: 5px;
+  }
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative; /* Adicionado */
+  }
+  .service {
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  .service:hover {
+    transform: scale(1.05);
+  }
+  .service img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+    border: 5px solid #fff;
+  }
+  .service img:hover {
+    transform: scale(1.1);
+  }
+  .service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .service p {
+    font-size: 16px;
+    color: #666;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+  }
+  .btn-more-options {
+    background-color: #eb6565;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+  }
+  .btn-more-options:hover {
+    background-color: #cc3333;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <img src="https://duraflex.com.br/wp-content/uploads/2023/05/logo-duraflex-branca-horizontal-1-1024x193.png" alt="Estácio">
+  </header>
+  <nav>
+    <ul>
+      <li><a href="site.duraflex.html">Home</a></li>
+      <li><a href="serviços.html">Serviços</a></li>
+      <li><a href="sobrenos.html">Sobre nós</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+  <div class="banner">
+    <div class="container">
+      <h1>Restauração e Revestimento de Pisos</h1>
+      <p>Transformamos espaços com soluções de alta qualidade</p>
+    </div>
+    <div class="banner-text" style="background-color: rgba(0, 0, 0, 0.2);">
+      <p style="font-size: 24px; font-weight: bold;">Estácio Seixas</p>
+      <p>Atendemos em Santa Catarina e Paraná</p>
+  </div>
+  
+  </div>
+  <div class="container">
+    <h2>Nossos Serviços</h2>
+    <section class="services">
+      <div class="service">
+        <img src="imgindustrial.jpg" alt="Ambientes industriais">
+        <h3>Ambientes industriais</h3>
+        <p>Transformamos espaços industriais com nossas soluções de revestimento de pisos de alta qualidade.</p>
+      </div>
+      <div class="service">
+        <img src="cozinhadf.png" alt="Cozinhas">
+        <h3>Cozinhas</h3>
+        <p>Oferecemos revestimentos duráveis e de fácil limpeza para cozinhas comerciais e residenciais.</p>
+      </div>
+      <div class="service">
+        <img src="imggaragemdf.png" alt="Garagens">
+        <h3>Clínicas e hospitais</h3>
+        <p>Nossos produtos garantem pisos seguros e higiênicos para ambientes de saúde.</p>
+      </div>
+    </section>
+  </div>
+  <div style="height: 50px;"></div>
+
+  <footer>
+    <p>&copy; 2024 Duraflex - Restauração e Revestimento de Pisos. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
